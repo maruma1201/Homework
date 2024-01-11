@@ -1,0 +1,146 @@
+
+body{
+    background-color: #fde7eb;
+	font-family: arial,helvetica,sans-serif,微軟正黑體;
+}
+
+ html, body {
+	height: 100%;
+}
+
+
+.fixed_bg, .infos {
+	position: relative;
+	height: 100%;
+}
+
+
+.fixed_bg {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.bg_1 {
+	background-image: url(../asset/image/vygK3BHzsZNuCKhH6vIWA.jfif);
+}
+
+.bg_2 {
+	background-image: url(../asset/image/v2.webp);
+}
+
+.bg_3 {
+	background-image: url(../asset/image/20201126.jpg);
+}
+
+.bg_4 {
+	background-image: url(../asset/image02/visual_bg_pc.jpg);
+}
+
+.color1 {
+	background-color: #f3d2a1;
+}
+
+.color2 {
+	background-color: #df9187;
+}
+
+.color3 {
+	background-color: #aec48c;
+}
+
+.vcenter {
+	position: absolute;
+	left: 50%;
+	top: 85%;
+	color: #ffffff;
+	text-align: center;
+	-webkit-transform: translateX(-50%) translateY(-50%); 
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%); 
+	-o-transform: translateX(-50%) translateY(-50%); 
+	transform: translateX(-50%) translateY(-50%); 
+	text-align: center; 
+}
+
+.vcenter02 {	
+}
+
+.shadow { 
+	text-shadow: 12px 12px 10px rgba(133, 116, 89, 0.9);
+}
+
+
+h1{
+    text-align=center;
+    font-size: 50px;
+}
+
+.box0{
+    background-color: #fde7eb;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+.box{
+    width: 980px;
+    background-color: hwb(153 51% 31%);
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+h3{
+    text-align=center;
+    font-size: 25px;
+    color: #524329;
+}
+
+.data{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.content{
+    padding: 20px;
+    border: solid 0px;
+}
+
+
+
+h2{
+    text-align=center;
+    font-size: 40px;
+}
+
+h4{
+    text-align=center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.pic img{
+    width: 938px;
+    border-radius: 250px;
+}
+
+.pic02 img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 20%;
+    border-radius: 0px;
+  }
+
+.tree{
+    text-align=center;
+}
+
+.row{
+    justify-content: center;
+}
+
+.paddingtop{
+    padding-top: 30px;
+}
